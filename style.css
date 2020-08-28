@@ -29,6 +29,8 @@ body{
 }
 .right {
     background-color: rgba(245, 245, 245, 0.918);
+    overflow: auto;
+    text-overflow: ellipsis;
 }
 ul{
     list-style-type: none;
