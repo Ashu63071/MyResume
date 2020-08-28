@@ -29,7 +29,7 @@ body{
 }
 .right {
     background-color: rgba(245, 245, 245, 0.918);
-    overflow: auto;
+    overflow: hidden;
     text-overflow: ellipsis;
 }
 ul{
