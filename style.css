@@ -1,0 +1,48 @@
+
+  *{
+    box-sizing: border-box;
+    margin: 10px;
+}
+body{
+     
+     margin: 50px auto;
+     border: 1px solid grey;
+     display: grid;
+     grid-template-rows: 100px 1fr ;
+     grid-template-columns: 65% 35%;
+     grid-row: 10px;
+ }
+ .note{
+     text-align: right;
+     font-style: oblique;
+ }
+
+
+.header {
+    background-color: black;
+    color: floralwhite;
+    grid-column: 1/-1;
+}
+
+.left {
+    background-color:rgb(255, 255, 255);
+}
+.right {
+    background-color: rgba(245, 245, 245, 0.918);
+    word-break: break-all;
+}
+ul{
+    list-style-type: none;
+    padding:0;
+}
+h4{
+    font-family: Arial;
+}
+span{
+    font-style: italic;
+    font-weight: bold;
+}
+ul li li{
+    list-style-type: square;
+    
+}
