@@ -29,8 +29,7 @@ body{
 }
 .right {
     background-color: rgba(245, 245, 245, 0.918);
-    overflow: hidden;
-    text-overflow: ellipsis;
+    word-break: break-all;
 }
 ul{
     list-style-type: none;
